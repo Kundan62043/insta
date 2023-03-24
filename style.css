@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    width: 220px;
+    height: 200px;
+    /* background: linear-gradient(red, rgb(170, 4, 170), rgb(198, 198, 50), rgb(110, 110, 210)); */
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item>div {
+    background: linear-gradient(white);
+    border-radius: 35px;
+    width: 165px;
+    height: 155px;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    margin-left: 25px;
+    top: 25px;
+}
+
+.item>.item4 {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 150px;
+    height: 140px;
+    margin-left: 38px;
+    right: 5px;
+    border: 20px;
+    top: -123px;
+}
+
+.item>.item3 {
+    background-color: rgb(248, 248, 248);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 25px;
+    height: 25px;
+    margin-left: 140px;
+    right: 5px;
+    border: 25px;
+    top: -250px;
+}
+
+.item>.item5 {
+    background-color: rgb(248, 248, 248);
+    border-top-right-radius: 42px;
+    border-top-left-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(56, 232, 25); */
+    /* position: 10px; */
+    margin-left: 71px;
+    /* position: relative; */
+    right: 5px;
+    border: 20px;
+    top: -250px;
+}
+
+.item>.item6 {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 60px;
+    height: 60px;
+    /* background-color: rgb(56, 232, 25); */
+    /* position: 10px; */
+    margin-left: 81px;
+    /* position: relative; */
+    right: 5px;
+    border: 20px;
+    margin-top: -345px;
+}
